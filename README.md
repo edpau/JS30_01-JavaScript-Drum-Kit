@@ -8,7 +8,8 @@
 
 <img src="./src/images/screenshot.png" alt="screenshot" width="300"/>
 
-
+- [Solution URL](https://github.com/edpau/JS30_01-JavaScript-Drum-Kit)
+- [Live Site URL](https://edpau.github.io/JS30_01-JavaScript-Drum-Kit/)
 
 ## What I learn
 
