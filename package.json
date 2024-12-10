@@ -4,7 +4,9 @@
   "main": "index.js",
   "homepage": "<https://github.com/edpau/JS30_01-JavaScript-Drum-Kit>",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
   },
   "keywords": [],
   "author": "",
