@@ -11,7 +11,6 @@ function playSound(e) {
 function removeTransition(e) {
     if (e.propertyName !== "transform")
         return; // there is more than one TransitionEvent, so we pick the longest one, "transform"
-    console.log(e.propertyName);
     this.classList.remove("playing");
 }
 const keys = document.querySelectorAll(".key");
